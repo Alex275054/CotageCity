@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20230121160432">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230130183009">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,40 +14,42 @@
 
 <body>
 	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__logo">
+					<a href="#home" class="header__logo-link">
+						<picture><source srcset="img/header/logo.webp" type="image/webp"><img src="img/header/logo.jpg" alt="Логотип" class="header__logo-main"></picture>
+					</a>
+				</div>
+				<div class="header__menu menu">
+					<div class="header__actions">
+						<div class="header__whats-app">
+							<img src="img/header/whatApp.svg" alt="whatsapp" class="header__whats-app-main">
+						</div>
+						<a href="tel:+77000011888" class="header__phone-main">
+							<img src="img/header/phone.svg" alt="" class="header__phone-img-main">
+							<span>+7 700 001 18 88</span>
+						</a>
+						<button type="button" class="menu__icon icon-menu"><span></span></button>
+					</div>
+					<nav class="menu__body">
+						<div class="header__content">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="#about" class="menu__link">О проекте</a></li>
+								<li class="menu__item"><a href="#location" class="menu__link">Локация</a></li>
+								<li class="menu__item"><a href="#benefits" class="menu__link">Преимущества</a></li>
+								<li class="menu__item"><a href="#why" class="menu__link">Почему мы?</a></li>
+								<li class="menu__item"><a href="#payment" class="menu__link">Способы оплаты</a></li>
+								<li class="menu__item"><a href="#footer" class="menu__link">Контакты</a></li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</header>
 		<main class="page">
 			<section class="home">
-				<header class="header">
-					<div class="header__container">
-						<div class="header__logo">
-							<picture><source srcset="img/header/logo.webp" type="image/webp"><img src="img/header/logo.jpg" alt="Ложготип" class="header__logo-main"></picture>
-						</div>
-						<div class="header__menu menu">
-							<div class="header__actions">
-								<div class="header__whats-app">
-									<img src="img/icons/whatsapp.svg" alt="whatsapp" class="header__whats-app-main">
-								</div>
-								<a href="tel:+77000011888" class="header__phone-main">
-									<img src="img/icons/phone.svg" alt="" class="header__phone-img-main">
-									+7 700 001 18 88
-								</a>
-								<button type="button" class="menu__icon icon-menu"><span></span></button>
-							</div>
-							<nav class="menu__body">
-								<div class="header__content">
-									<ul class="menu__list">
-										<li class="menu__item"><a href="#" class="menu__link">О проекте</a></li>
-										<li class="menu__item"><a href="#" class="menu__link">Локация</a></li>
-										<li class="menu__item"><a href="#" class="menu__link">Преимущества</a></li>
-										<li class="menu__item"><a href="#" class="menu__link">Почему мы?</a></li>
-										<li class="menu__item"><a href="#" class="menu__link">Способы оплаты</a></li>
-										<li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
-									</ul>
-								</div>
-							</nav>
-						</div>
-					</div>
-				</header>
-				<div class="home__container container-home">
+				<div id="home" class="home__container container-home">
 					<div class="home__text text-home">
 						<h1 class="home__title">Элитный коттедежный городок в г. Нур-Султан</h1>
 						<a href="#" class="home__link btn">Скачать презентацию</a>
@@ -56,25 +58,28 @@
 							<div class="cottages-home__content content-cottages-home">
 								<div class="cottages-home__cotage cotage-cottages-home">
 									<div class="cottages-home__amount amount-cottages-home">3</div>
-									<div class="cottages-home__description description-cottages-home">коттеджа 368 м2 на 10 сотках</div>
+									<div class="cottages-home__description description-cottages-home">коттеджа 368 м2 на 10
+										сотках</div>
 								</div>
 								<div class="cottages-home__cotage cotage-cottages-home">
 									<div class="cottages-home__amount amount-cottages-home">33</div>
-									<div class="cottages-home__description description-cottages-home">коттеджа 179 м2 на 5 сотках</div>
+									<div class="cottages-home__description description-cottages-home">коттеджа 179 м2 на 5 сотках
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 					<div class="home__terms terms-home">
 						<ul class="terms-home__items">
-							<li class="terms-home__item">Строительные работы начались в сентября 2021 года.</li>
-							<li class="terms-home__item">Срок сдачи коттеджей - I квартал 2022 года</li>
-							<li class="terms-home__item">Срок сдачи всего коттеджного городка - II квартал 2022 года</li>
+							<li class="terms-home__item"><span>Строительные работы</span> начались в сентября 2021 года.</li>
+							<li class="terms-home__item"><span>Срок сдачи</span> коттеджей - I квартал 2022 года</li>
+							<li class="terms-home__item"><span>Срок сдачи</span> всего коттеджного городка - II квартал 2022
+								года</li>
 						</ul>
 					</div>
 				</div>
 			</section>
-			<section class="about">
+			<section id="about" class="about">
 				<div class="about__container">
 					<div class="about__body body-about">
 						<div class="body-about__text">
@@ -126,7 +131,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="cottages cottages-slider">
+			<section id="cottages" class="cottages cottages-slider">
 				<div class="cottages-slider__container">
 					<h2 class="cottages-slider__title title">Коттеджи</h2>
 
@@ -137,57 +142,67 @@
 							<!-- Слайд -->
 							<div class="item-cottages-slider__slide swiper-slide">
 								<div class="item-cottages-slider__img">
-									<picture><source srcset="img/cottages-slider/cottages-slider.webp" type="image/webp"><img src="img/cottages-slider/cottages-slider.jpg" alt="" class="item-cottages-slider__img-main"></picture>
+									<picture><source srcset="img/cottages/cottages-slider.webp" type="image/webp"><img src="img/cottages/cottages-slider.jpg" alt="" class="item-cottages-slider__img-main"></picture>
 								</div>
 								<div class="item-cottages-slider__description">
 									<p class="item-cottages-slider__apartment-area">179 м2</p>
-									<picture><source srcset="img/cottages-slider/cottages-slider-apartment.webp" type="image/webp"><img src="img/cottages-slider/cottages-slider-apartment.png" alt="" class="item-cottages-slider__apartment-scheme"></picture>
+									<picture><source srcset="img/cottages/cottages-slider-apartment.webp" type="image/webp"><img src="img/cottages/cottages-slider-apartment.png" alt="" class="item-cottages-slider__apartment-scheme"></picture>
 								</div>
 							</div>
 							<!-- Слайд -->
 							<div class="item-cottages-slider__slide swiper-slide">
 								<div class="item-cottages-slider__img">
-									<picture><source srcset="img/cottages-slider/cottages-slider.webp" type="image/webp"><img src="img/cottages-slider/cottages-slider.jpg" alt="" class="item-cottages-slider__img-main"></picture>
+									<picture><source srcset="img/cottages/cottages-slider.webp" type="image/webp"><img src="img/cottages/cottages-slider.jpg" alt="" class="item-cottages-slider__img-main"></picture>
 								</div>
 								<div class="item-cottages-slider__description">
 									<p class="item-cottages-slider__apartment-area">179 м2</p>
-									<picture><source srcset="img/cottages-slider/cottages-slider-apartment.webp" type="image/webp"><img src="img/cottages-slider/cottages-slider-apartment.png" alt="" class="item-cottages-slider__apartment-scheme"></picture>
+									<picture><source srcset="img/cottages/cottages-slider-apartment.webp" type="image/webp"><img src="img/cottages/cottages-slider-apartment.png" alt="" class="item-cottages-slider__apartment-scheme"></picture>
 								</div>
 							</div>
 							<!-- Слайд -->
 							<div class="item-cottages-slider__slide swiper-slide">
 								<div class="item-cottages-slider__img">
-									<picture><source srcset="img/cottages-slider/cottages-slider.webp" type="image/webp"><img src="img/cottages-slider/cottages-slider.jpg" alt="" class="item-cottages-slider__img-main"></picture>
+									<picture><source srcset="img/cottages/cottages-slider.webp" type="image/webp"><img src="img/cottages/cottages-slider.jpg" alt="" class="item-cottages-slider__img-main"></picture>
 								</div>
 								<div class="item-cottages-slider__description">
 									<p class="item-cottages-slider__apartment-area">179 м2</p>
-									<picture><source srcset="img/cottages-slider/cottages-slider-apartment.webp" type="image/webp"><img src="img/cottages-slider/cottages-slider-apartment.png" alt="" class="item-cottages-slider__apartment-scheme"></picture>
+									<picture><source srcset="img/cottages/cottages-slider-apartment.webp" type="image/webp"><img src="img/cottages/cottages-slider-apartment.png" alt="" class="item-cottages-slider__apartment-scheme"></picture>
 								</div>
 							</div>
 							<!-- Слайд -->
 							<div class="item-cottages-slider__slide swiper-slide">
 								<div class="item-cottages-slider__img">
-									<picture><source srcset="img/cottages-slider/cottages-slider.webp" type="image/webp"><img src="img/cottages-slider/cottages-slider.jpg" alt="" class="item-cottages-slider__img-main"></picture>
+									<picture><source srcset="img/cottages/cottages-slider.webp" type="image/webp"><img src="img/cottages/cottages-slider.jpg" alt="" class="item-cottages-slider__img-main"></picture>
 								</div>
 								<div class="item-cottages-slider__description">
 									<p class="item-cottages-slider__apartment-area">179 м2</p>
-									<picture><source srcset="img/cottages-slider/cottages-slider-apartment.webp" type="image/webp"><img src="img/cottages-slider/cottages-slider-apartment.png" alt="" class="item-cottages-slider__apartment-scheme"></picture>
+									<picture><source srcset="img/cottages/cottages-slider-apartment.webp" type="image/webp"><img src="img/cottages/cottages-slider-apartment.png" alt="" class="item-cottages-slider__apartment-scheme"></picture>
+								</div>
+							</div>
+							<!-- Слайд -->
+							<div class="item-cottages-slider__slide swiper-slide">
+								<div class="item-cottages-slider__img">
+									<picture><source srcset="img/cottages/cottages-slider.webp" type="image/webp"><img src="img/cottages/cottages-slider.jpg" alt="" class="item-cottages-slider__img-main"></picture>
+								</div>
+								<div class="item-cottages-slider__description">
+									<p class="item-cottages-slider__apartment-area">179 м2</p>
+									<picture><source srcset="img/cottages/cottages-slider-apartment.webp" type="image/webp"><img src="img/cottages/cottages-slider-apartment.png" alt="" class="item-cottages-slider__apartment-scheme"></picture>
 								</div>
 							</div>
 						</div>
 						<div class="swiper-navigation">
 							<!-- Если нужна навигация (влево/вправо) -->
 							<button type="button" class="swiper-button-prev">
-								<img src="img/cottages-slider/cottages-slider__arr.svg" alt="" class="item-cottages-slider__arr-prev">
+								<img src="img/cottages/arr.svg" alt="" class="item-cottages-slider__arr-prev">
 							</button>
 							<button type="button" class="swiper-button-next">
-								<img src="img/cottages-slider/cottages-slider__arr.svg" alt="" class="item-cottages-slider__arr-next">
+								<img src="img/cottages/arr.svg" alt="" class="item-cottages-slider__arr-next">
 							</button>
 						</div>
 					</div>
 				</div>
 			</section>
-			<section class="location">
+			<section id="location" class="location">
 				<div class="location__container">
 					<div class="location__text">
 						<h2 class="location__title article-title">Локация</h2>
@@ -199,12 +214,12 @@
 							шума с удобной транспортной развязкой.</p>
 					</div>
 					<div class="location__img">
-						<picture><source srcset="img/location/location-img.webp" type="image/webp"><img src="img/location/location-img.jpg" alt="" class="location__img-main"></picture>
+						<picture><source srcset="img/location/location-01.webp" type="image/webp"><img src="img/location/location-01.png" alt="" class="location__img-main"></picture>
 					</div>
 				</div>
 			</section>
-			<section class="benefits">
-				<div class="benefits__own-container">
+			<section id="benefits" class="benefits">
+				<div class="benefits__container-own">
 					<h2 class="benefits__title article-title">
 						<p>Основные преимущества</p>
 						<p>городка</p>
@@ -292,7 +307,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="why">
+			<section id="why" class="why">
 				<div class="why__container">
 					<h2 class="why__title article-title">Почему NURA ELITE?</h2>
 					<div class="why__content">
@@ -350,7 +365,7 @@
 					</div>
 				</div>
 			</section>
-			<div class="technology">
+			<section id="technology" class="technology">
 				<div class="technology__container">
 					<h2 class="technology__title article-title">Технология строения</h2>
 					<div class="technology__container-items">
@@ -359,7 +374,9 @@
 								<div class="item-technology__img"><picture><source srcset="img/technology/01.webp" type="image/webp"><img src="img/technology/01.png" alt="Конструкция стены" class="item-technology__img-main"></picture></div>
 								<h3 class="item-technology__title">Конструкция стены</h3>
 								<p class="item-technology__text text">Технология IZO TERMO.
-									Двери не соприкасаются с наружными. Между ними расположен изолятор - щит из португальского пробкового дуба в 8 мм. IZO TERMO устраняет “мостик холода” и не дает теплу уходить из дома. С этой технологией вам не нужен тамбур и вторая дверь.</p>
+									Двери не соприкасаются с наружными. Между ними расположен изолятор - щит из португальского
+									пробкового дуба в 8 мм. IZO TERMO устраняет “мостик холода” и не дает теплу уходить из дома.
+									С этой технологией вам не нужен тамбур и вторая дверь.</p>
 							</div>
 							<div class="technology__item item-technology">
 								<div class="item-technology__img"><picture><source srcset="img/technology/02.webp" type="image/webp"><img src="img/technology/02.png" alt="Конструкция двери" class="item-technology__img-main"></picture></div>
@@ -375,7 +392,8 @@
 							<div class="technology__item item-technology">
 								<div class="item-technology__img"><picture><source srcset="img/technology/03.webp" type="image/webp"><img src="img/technology/03.png" alt="Конструкция Фасада" class="item-technology__img-main"></picture></div>
 								<h3 class="item-technology__title">Конструкция Фасада</h3>
-								<p class="item-technology__text text">HPL панель - это высококачественная строительная продукция для
+								<p class="item-technology__text text">HPL панель - это высококачественная строительная продукция
+									для
 									долговечной облицовки фасада.
 									Стойкость на погодные воздействия +180 с/ -180с с высоким эффектом защиты от атмосферных
 									воздействий.
@@ -400,7 +418,8 @@
 							<div class="technology__item item-technology">
 								<div class="item-technology__img"><picture><source srcset="img/technology/05.webp" type="image/webp"><img src="img/technology/05.png" alt="Конструкция кровли" class="item-technology__img-main"></picture></div>
 								<h3 class="item-technology__title">Конструкция кровли</h3>
-								<p class="item-technology__text text">Гибкая черепица ТЕХНОНИКОЛЬ SHINGLAS - это гарантия комфорта и
+								<p class="item-technology__text text">Гибкая черепица ТЕХНОНИКОЛЬ SHINGLAS - это гарантия
+									комфорта и
 									безопасности вашего дома. Дома с кровлей из гибкой
 									черепицы ТЕХНОНИКОЛЬ SHINGLAS очаровывают своей гармонией, изяществом. Коллекции отличаются
 									разнообразием форм и
@@ -409,7 +428,8 @@
 							<div class="technology__item item-technology">
 								<div class="item-technology__img"><picture><source srcset="img/technology/06.webp" type="image/webp"><img src="img/technology/06.png" alt="ФБЦ" class="item-technology__img-main"></picture></div>
 								<h3 class="item-technology__title">ФБЦ</h3>
-								<p class="item-technology__text text">ФБЦ - это уникальный и высококачественный строительный материал
+								<p class="item-technology__text text">ФБЦ - это уникальный и высококачественный строительный
+									материал
 									для долговечной облицовки фасада.
 									Высокая морозостойкость, пожаробезопасность, хорошая звуко- и теплоизоляция, герметичность,
 									повышенная прочность,
@@ -422,43 +442,51 @@
 						</div>
 					</div>
 				</div>
-			</div>
-		</main>
-		<footer class="footer">
-			<div class="footer__container">
-				<div class="footer__actions actions-footer">
-					<h2 class="actions-footer__title">Скачать презентацию</h2>
-					<p class="actions-footer__sub-title">Оставьте свои контакты и мы вам вышлем</p>
-					<div class="actions-footer__row">
-						<input type="text" class="actions-footer__input actions-footer__input_name" placeholder="Ваше имя">
-						<input type="text" class="actions-footer__input actions-footer__input_phone" placeholder="Номер телефона">
-						<button class="actions-footer__btn btn">Отправить</button>
+			</section>
+			<section class="actions">
+				<div class="actions__container">
+					<div class="footer__actions actions-footer">
+						<!-- <h2 class="actions-footer__title">Скачать презентацию</h2>
+						<p class="actions-footer__sub-title">Оставьте свои контакты и мы вам вышлем</p> -->
+						<div class="actions-footer__row">
+							<input type="text" class="actions-footer__input actions-footer__input_name" placeholder="Ваше имя">
+							<input type="text" class="actions-footer__input actions-footer__input_phone" placeholder="Номер телефона">
+							<button class="actions-footer__btn btn">Отправить</button>
+						</div>
 					</div>
 				</div>
-				<div class="footer__payment payment-footer">
+			</section>
+			<section id="payment" class="payment">
+				<div class="payment__container">
 					<h2 class="payment-footer__title">Способы оплаты</h2>
 					<div class="payment-footer__items">
 						<div class="payment-footer__item item-payment-footer">
-							<picture><source srcset="img/footer/payment-footer-01.webp" type="image/webp"><img src="img/footer/payment-footer-01.png" alt="Получение займа" class="item-payment-footer__img"></picture>
+							<picture><source srcset="img/payment/01.webp" type="image/webp"><img src="img/payment/01.png" alt="Получение займа" class="item-payment-footer__img"></picture>
 							<h2 class="item-payment-footer__title">Получение займа через АО “ЖилСтройСберБанк”</h2>
 						</div>
 						<div class="payment-footer__item item-payment-footer">
-							<picture><source srcset="img/footer/payment-footer-02.webp" type="image/webp"><img src="img/footer/payment-footer-02.png" alt="Получение беспроцентной рассрочки" class="item-payment-footer__img"></picture>
-							<h2 class="item-payment-footer__title">Получение беспроцентной рассрочки от застройщика NURA ELITE</h2>
+							<picture><source srcset="img/payment/02.webp" type="image/webp"><img src="img/payment/02.png" alt="Получение беспроцентной рассрочки" class="item-payment-footer__img"></picture>
+							<h2 class="item-payment-footer__title">Получение беспроцентной рассрочки от застройщика NURA
+								ELITE
+							</h2>
 						</div>
 						<div class="payment-footer__item item-payment-footer">
-							<picture><source srcset="img/footer/payment-footer-03.webp" type="image/webp"><img src="img/footer/payment-footer-03.png" alt="Компания" class="item-payment-footer__img"></picture>
+							<picture><source srcset="img/payment/03.webp" type="image/webp"><img src="img/payment/03.png" alt="Компания" class="item-payment-footer__img"></picture>
 							<h2 class="item-payment-footer__title">Казахстанская Ипотечная Компания «Орда»</h2>
 						</div>
 						<div class="payment-footer__item item-payment-footer">
-							<picture><source srcset="img/footer/payment-footer-04.webp" type="image/webp"><img src="img/footer/payment-footer-04.png" alt="Оплата" class="item-payment-footer__img"></picture>
+							<picture><source srcset="img/payment/04.webp" type="image/webp"><img src="img/payment/04.png" alt="Оплата" class="item-payment-footer__img"></picture>
 							<h2 class="item-payment-footer__title">Оплата криптовалютой (Биткоин)</h2>
 						</div>
 					</div>
 				</div>
+			</section>
+		</main>
+		<footer id="footer" class="footer">
+			<div class="footer__container">
 				<div class="footer__contact contact-footer">
 					<div class="contact-footer__map">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22459639.99350312!2d49.03843825265956!3d46.5940518439738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38a91007ecfca947%3A0x5f7b842fe4b30e1b!2z0JrQsNC30LDRhdGB0YLQsNC9!5e0!3m2!1sru!2sua!4v1674120044925!5m2!1sru!2sua" width="578" height="428" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22459639.99350312!2d49.03843825265956!3d46.5940518439738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38a91007ecfca947%3A0x5f7b842fe4b30e1b!2z0JrQsNC30LDRhdGB0YLQsNC9!5e0!3m2!1sru!2sua!4v1674120044925!5m2!1sru!2sua" width="578" class="contact-footer__map-maiin" height="428" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 					</div>
 					<div class="contact-footer__contacts contacts-contact-footer">
 						<h2 class="contacts-contact-footer__title">Контакты</h2>
@@ -466,17 +494,17 @@
 						<div class="contacts-contact-footer__actions">
 							<ul class="contacts-contact-footer__links">
 								<li>
-									<a href="tel:+77000011888" class="contacts-contact-footer__phone">+7 (700) 001-18-88</a>
+									<a href="tel:+77000011888" class="contacts-contact-footer__phone contacts-contact-footer__link">+7 (700) 001-18-88</a>
 								</li>
 								<li>
-									<a href="mailto:info@nuramm.kz" class="contacts-contact-footer__mail">info@nuramm.kz</a>
+									<a href="mailto:info@nuramm.kz" class="contacts-contact-footer__mail contacts-contact-footer__link">info@nuramm.kz</a>
 								</li>
 								<li>
-									<a href="#" class="contacts-contact-footer__social-instagram">@nura.premier</a>
+									<a href="#" class="contacts-contact-footer__social-instagram contacts-contact-footer__link">@nura.premier</a>
 								</li>
 							</ul>
 							<div class="contacts-contact-footer__qr-code">
-								<picture><source srcset="img/footer/qr-code.webp" type="image/webp"><img src="img/footer/qr-code.jpg" alt="" class="contacts-contact-footer__qr-code-main"></picture>
+								<picture><source srcset="img/footer/footer-qr-code.webp" type="image/webp"><img src="img/footer/footer-qr-code.jpg" alt="" class="contacts-contact-footer__qr-code-main"></picture>
 							</div>
 						</div>
 					</div>
@@ -493,7 +521,7 @@
 			</div>
 		</footer>
 	</div>
-	<script src="js/app.min.js?_v=20230121160432"></script>
+	<script src="js/app.min.js?_v=20230130183009"></script>
 </body>
 
 </html>
