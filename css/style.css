@@ -273,7 +273,7 @@ html {
 }
 
 .footer {
-  padding: 6.25rem 0rem 1.875rem;
+  padding: 0 0rem 1.875rem;
 }
 
 .footer__contact {
@@ -830,10 +830,6 @@ html {
   font-size: 1rem;
 }
 
-.actions {
-  padding: 5rem 0 6.25rem;
-}
-
 .actions-footer {
   border: 8px solid #842231;
   border-radius: 0.5rem;
@@ -901,7 +897,7 @@ html {
 }
 
 .payment__container {
-  padding: 9.375rem 0.875rem;
+  padding: 6.25rem 0.875rem;
 }
 
 .payment-footer__title {
