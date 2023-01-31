@@ -401,6 +401,10 @@ html {
 
 .home__text {
   margin-bottom: 2.5rem;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 53.125rem;
+          flex: 0 1 53.125rem;
+  padding-right: 0.625rem;
 }
 
 .home__title {
@@ -408,6 +412,13 @@ html {
   font-size: 2.375rem;
   line-height: 140%;
   margin-bottom: 3.125rem;
+  padding-right: 0.625rem;
+  margin-right: 0.625rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .home__link {
@@ -437,7 +448,7 @@ html {
 }
 
 .cottages-home__cotage:not(:last-child) {
-  margin-right: 1.875rem;
+  margin: 0 1.875rem 0.9375rem;
 }
 
 .cottages-home__amount {
@@ -673,6 +684,12 @@ html {
 
 .item-benefits__img {
   margin-right: 0.9375rem;
+  max-width: 50.625rem;
+  padding: 0 10px;
+}
+
+.item-benefits__img-main {
+  max-width: 100%;
 }
 
 .item-benefits-last {
@@ -1200,6 +1217,13 @@ html {
 @media (max-width: 40.3125rem) {
   .actions-footer__input {
     margin-right: 0rem;
+  }
+}
+
+@media (max-width: 35.625rem) {
+  .cottages-home__content {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
 }
 
