@@ -682,14 +682,17 @@ html {
   margin-bottom: 3.125rem;
 }
 
-.item-benefits__img {
-  margin-right: 0.9375rem;
+.benefits__img-maim-big {
   max-width: 50.625rem;
   padding: 0 10px;
 }
 
-.item-benefits__img-main {
+.benefits__img-maim-big-picture {
   max-width: 100%;
+}
+
+.item-benefits__img {
+  margin-right: 0.9375rem;
 }
 
 .item-benefits-last {
@@ -1071,12 +1074,12 @@ html {
 }
 
 @media (max-width: 58.125rem) {
-  .item-benefits__img {
+  .benefits__img-maim-big {
     max-width: 810px;
     padding: 0 10px;
   }
 
-  .item-benefits__img-main {
+  .benefits__img-maim-big-picture {
     max-width: 100%;
   }
 }
