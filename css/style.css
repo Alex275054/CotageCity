@@ -702,13 +702,16 @@ html {
           flex: 0 1 100%;
 }
 
-.no-webp .why__container{
+.no-webp .why{
   background-image: url("../img/why/why-bg.png"); }
+
+.why {
+  background-repeat: no-repeat;
+  background-position: left 4.375rem;
+}
 
 .why__container {
   padding: 6.875rem 0.9375rem;
-  background-repeat: no-repeat;
-  background-position: left 4.375rem;
 }
 
 .why__title {
@@ -768,13 +771,16 @@ html {
   margin-bottom: 0.9375rem;
 }
 
-.no-webp .technology__container{
+.no-webp .technology{
   background-image: url("../img/technology/technology-bg.png"); }
+
+.technology {
+  background-repeat: no-repeat;
+  background-position: 5rem 3.75rem;
+}
 
 .technology__container {
   padding: 8.125rem 0.9375rem;
-  background-repeat: no-repeat;
-  background-position: 5rem 3.75rem;
 }
 
 .technology__title {
@@ -1325,9 +1331,9 @@ html {
 
 .webp .benefits{ background-image: url(../img/benefits/benefis-bg.webp); }
 
-.webp .why__container{ background-image: url(../img/why/why-bg.webp); }
+.webp .why{ background-image: url(../img/why/why-bg.webp); }
 
-.webp .technology__container{ background-image: url(../img/technology/technology-bg.webp); }
+.webp .technology{ background-image: url(../img/technology/technology-bg.webp); }
 
 .webp .actions-footer__input_name::before{ background-image: url(../img/actions/actions-pers.webp); }
 
