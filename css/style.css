@@ -183,6 +183,7 @@ html {
   width: 100%;
   color: #fff;
   z-index: 99;
+  min-height: 8.5625rem;
 }
 
 .header__container {
@@ -487,6 +488,7 @@ html {
 .about {
   background-repeat: no-repeat;
   background-position: right 1.875rem;
+  padding: 3.125rem 0;
 }
 
 .about__container {
@@ -542,7 +544,7 @@ html {
 
 .cottages {
   background: #E5E5E5;
-  padding: 2.5rem 0;
+  padding: 6.25rem 0;
 }
 
 .cottages-slider__title {
@@ -646,7 +648,7 @@ html {
   background-image: url("../img/benefits/benefis-bg.png"); }
 
 .benefits {
-  padding: 5rem 0.9375rem;
+  padding: 9.375rem 0.9375rem;
   background-color: #F9F4F4;
   background-position: left bottom;
   background-repeat: no-repeat;
@@ -894,6 +896,7 @@ html {
 .payment {
   background-repeat: no-repeat;
   background-position: center 3.125rem;
+  padding-top: 6.25rem;
 }
 
 .payment__container {
