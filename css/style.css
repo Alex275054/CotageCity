@@ -1158,6 +1158,10 @@ html {
     font-size: 2.5rem;
   }
 
+  .menu__link {
+    font-size: 2rem;
+  }
+
   .icon-menu {
     display: block;
     position: relative;
